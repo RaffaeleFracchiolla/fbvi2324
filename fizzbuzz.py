@@ -7,9 +7,12 @@ for num in range(x-25,x+25):
      print("Buzz",end="")
  if num % 14 == 0:
      print("AprilFish",end="")
+ if num % 143 == 0:
+     print("FracchiollaRaffaele",end="")
  if num % 3 != 0 \
     and num % 5 != 0 \
-    and num % 14 != 0:
+    and num % 14 != 0 \
+    and num % 143 != 0:
      print(num,end="")
  print("")
      
